@@ -13,3 +13,5 @@ F:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\obj\Debug\PlusMoinWPF.csproj.GenerateResou
 F:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\obj\Debug\PlusMoinWPF.csproj.CoreCompileInputs.cache
 F:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\obj\Debug\PlusMoinWPF.exe
 F:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\obj\Debug\PlusMoinWPF.pdb
+F:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\obj\Debug\Replay.g.cs
+F:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\obj\Debug\Replay.baml

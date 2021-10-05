@@ -25,12 +25,16 @@ namespace PlusMoinWPF
 
         int randomNumber;
 
+        int score;
+
+        bool winner = false;
+
+
         public MainWindow()
         {
             InitializeComponent();
 
             SetValue();
-
 
         }
 
@@ -44,7 +48,14 @@ namespace PlusMoinWPF
 
             randomNumber = random.Next(0, 10);
 
+
+            lifeLabel.Content = "Vie restante : ";
+
             resultLifeLabel.Content = life;
+
+            resultLabel.Content = "Tu dois trouver un chiffre random créé par le programme,  \r\n compris entre 0 et 10.  \r\n A toi de jouer :)";
+
+            scoreResult.Content = score;
 
         }
 
@@ -62,6 +73,10 @@ namespace PlusMoinWPF
 
                     resultLabel.Content = "Tu as trouver";
 
+                    winner = true;
+
+                    OpenReplay();
+
                 } else if (userValueEnter < randomNumber && life > 0) {
 
                     resultLabel.Content = "C'est Plus";
@@ -78,13 +93,53 @@ namespace PlusMoinWPF
 
                     resultLabel.Content = "Tu as perdu";
 
+                    winner = false;
+
+                    OpenReplay();
+
                 }
 
-                resultLifeLabel.Content = life;
+                if (life == 0)
+                {
+
+                    resultLifeLabel.Content = "";
+                    lifeLabel.Content = "Tu n'a plus de vie";
+
+                    winner = false;
+
+                    OpenReplay();
+
+                } else {
+
+                    resultLifeLabel.Content = life;
+
+                }
+
 
 
             }
 
         }
+
+
+        public void OpenReplay()
+        {
+
+            if(winner == true)
+            {
+
+                score = score + 10;
+
+            }
+
+            Replay ReplayForm = new Replay();
+
+            ReplayForm.Show();
+
+        }
+
+
+
+
     }
 }
