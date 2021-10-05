@@ -1,0 +1,24 @@
+﻿<Window x:Class="PlusMoinWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PlusMoinWPF"
+        mc:Ignorable="d"
+        Title="PlusMoins C# WPF" 
+        Height="173" 
+        Width="800"
+        WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+
+
+        <Label x:Name="title" Content="Bienvenue dans le de jeu de PlusMoin" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="36" Width="284" FontFamily="Source Sans Pro ExtraLight" FontSize="18"/>
+        <TextBox x:Name="userInput" HorizontalAlignment="Left" Height="28" Margin="15,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" FontSize="14"/>
+        <Button x:Name="buttonUserInput" Content="Valider mon choix" HorizontalAlignment="Left" Margin="158,51,0,0" VerticalAlignment="Top" Width="136" Height="28" RenderTransformOrigin="1.613,0.643" Click="buttonUserInput_Click"></Button>
+        <Label x:Name="resultLabel" Content="perdu" HorizontalAlignment="Left" Margin="316,51,0,0" VerticalAlignment="Top" Height="81" Width="466" FontSize="14"/>
+        <Label x:Name="lifeLabel" Content="Vie restante : " HorizontalAlignment="Left" Margin="15,104,0,0" VerticalAlignment="Top" Height="28" Width="80"/>
+        <Label x:Name="resultLifeLabel" Content="vie&#xD;&#xA;" HorizontalAlignment="Left" Margin="95,104,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.184,-1.048" Height="28" Width="38"/>
+
+
+    </Grid>
+</Window>
