@@ -12,10 +12,10 @@
     <Grid>
 
 
-        <Label x:Name="title" Content="Bienvenue dans le de jeu de PlusMoins" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="36" Width="294" FontFamily="Source Sans Pro ExtraLight" FontSize="18"/>
-        <TextBox x:Name="userInput" HorizontalAlignment="Left" Height="28" Margin="15,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" FontSize="14"/>
-        <Button x:Name="buttonUserInput" Content="Valider mon choix" HorizontalAlignment="Left" Margin="158,51,0,0" VerticalAlignment="Top" Width="136" Height="28" RenderTransformOrigin="1.613,0.643" Click="buttonUserInput_Click"></Button>
-        <Label x:Name="resultLabel" Content="Tu dois trouver un chiffre random créé par le programme,&#xD;&#xA;compris entre 0 et 10.&#xD;&#xA;A toi de jouer :)" HorizontalAlignment="Left" Margin="316,51,0,0" VerticalAlignment="Top" Height="81" Width="466" FontSize="14"/>
+        <Label x:Name="title" Content="Bienvenue dans le de jeu de PlusMoins" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="36" Width="323" FontFamily="Source Sans Pro ExtraLight" FontSize="18"/>
+        <TextBox x:Name="UserInput" HorizontalAlignment="Left" Height="28" Margin="15,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="177" FontSize="14"/>
+        <Button x:Name="buttonUserInput" Content="Valider mon choix" HorizontalAlignment="Left" Margin="197,51,0,0" VerticalAlignment="Top" Width="136" Height="28" RenderTransformOrigin="1.613,0.643" Click="buttonUserInput_Click"></Button>
+        <Label x:Name="resultLabel" Content="Tu dois trouver un chiffre random créé par le programme,&#xD;&#xA;compris entre 0 et 10.&#xD;&#xA;A toi de jouer :)" HorizontalAlignment="Left" Margin="355,51,0,0" VerticalAlignment="Top" Height="81" Width="427" FontSize="14"/>
         <Label x:Name="lifeLabel" Content="Vie restante : " HorizontalAlignment="Left" Margin="15,104,0,0" VerticalAlignment="Top" Height="28" Width="102"/>
         <Label x:Name="resultLifeLabel" Content="&#xA;" HorizontalAlignment="Left" Margin="93,104,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.184,-1.048" Height="28" Width="38"/>
         <Label x:Name="scoreLabel" Content="Score :" HorizontalAlignment="Left" Margin="158,104,0,0" VerticalAlignment="Top" Width="46"/>

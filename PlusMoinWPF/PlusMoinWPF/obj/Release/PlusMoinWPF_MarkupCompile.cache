@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\obj\Debug\
+C:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\obj\Release\
 PlusMoinWPF
 none
 false
-DEBUG;TRACE
+TRACE
 C:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\App.xaml
-3-1407842541
+2-1577795905
 
-844335417
+62065199300
 13-1505183044
-Error.xaml;MainWindow.xaml;Replay.xaml;
+MainWindow.xaml;Replay.xaml;
 
 True
 

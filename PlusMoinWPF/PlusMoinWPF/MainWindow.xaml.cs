@@ -64,7 +64,7 @@ namespace PlusMoinWPF
         {
 
 
-            if(int.TryParse(userInput.Text, out int userValueEnter))
+            if(int.TryParse(UserInput.Text, out int userValueEnter))
             {
 
 
@@ -117,9 +117,14 @@ namespace PlusMoinWPF
 
 
 
+            } else {
+
+                ErrorFormat();
+
             }
 
         }
+
 
 
         public void OpenReplay()
@@ -138,6 +143,20 @@ namespace PlusMoinWPF
 
         }
 
+
+
+        public void ErrorFormat()
+        {
+
+            Error errorForm = new Error();
+
+            errorForm.Show();
+
+            Error error = Application.Current.Windows.OfType<Error>().First();
+
+            error.ErrorLabel.Content = "Vous devez entrer uniquement des chiffres";
+
+        }
 
 
 
