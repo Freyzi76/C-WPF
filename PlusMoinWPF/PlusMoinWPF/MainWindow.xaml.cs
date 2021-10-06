@@ -25,6 +25,8 @@ namespace PlusMoinWPF
 
         int randomNumber;
 
+        public int randomNumberMax = 10;
+
         int score;
 
         bool winner = false;
@@ -46,14 +48,14 @@ namespace PlusMoinWPF
 
             Random random = new Random();
 
-            randomNumber = random.Next(0, 10);
+            randomNumber = random.Next(0, randomNumberMax);
 
 
             lifeLabel.Content = "Vie restante : ";
 
             resultLifeLabel.Content = life;
 
-            resultLabel.Content = "Tu dois trouver un chiffre random créé par le programme,  \r\n compris entre 0 et 10.  \r\n A toi de jouer :)";
+            resultLabel.Content = "Tu dois trouver un chiffre random créé par le programme,  \r\n compris entre 0 et 10.  \r\n A toi de jouer :) " + randomNumberMax;
 
             scoreResult.Content = score;
 
@@ -127,6 +129,26 @@ namespace PlusMoinWPF
 
 
 
+        private void buttonChangeValMax_Click(object sender, RoutedEventArgs e)
+        {
+
+            DefindRandomNumberMax();
+
+        }
+
+
+
+        public void DefindRandomNumberMax()
+        {
+
+            MaxNumber max = new MaxNumber();
+
+            max.Show();
+
+        }
+
+
+
         public void OpenReplay()
         {
 
@@ -158,7 +180,6 @@ namespace PlusMoinWPF
 
         }
 
-
-
+     
     }
 }

@@ -58,6 +58,9 @@
     <Compile Include="Error.xaml.cs">
       <DependentUpon>Error.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MaxNumber.xaml.cs">
+      <DependentUpon>MaxNumber.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Replay.xaml.cs">
       <DependentUpon>Replay.xaml</DependentUpon>
     </Compile>
@@ -77,6 +80,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MaxNumber.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Replay.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

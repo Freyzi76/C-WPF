@@ -34,3 +34,5 @@ C:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\obj\Debug\PlusMoinWPF.exe
 C:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\obj\Debug\PlusMoinWPF.pdb
 C:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\obj\Debug\Error.g.cs
 C:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\obj\Debug\Error.baml
+C:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\obj\Debug\MaxNumber.g.cs
+C:\REPO\C-WPF\PlusMoinWPF\PlusMoinWPF\obj\Debug\MaxNumber.baml

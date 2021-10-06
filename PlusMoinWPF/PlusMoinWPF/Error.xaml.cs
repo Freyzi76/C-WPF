@@ -27,6 +27,10 @@ namespace PlusMoinWPF
         private void ErrorButton_Click(object sender, RoutedEventArgs e)
         {
 
+            MainWindow main = Application.Current.Windows.OfType<MainWindow>().First();
+
+            main.UserInput.Text = "";
+
             Close();
 
         }
